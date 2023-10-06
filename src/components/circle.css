@@ -1,0 +1,29 @@
+.inner-circle{
+    width: 100px;
+    height: 100px;
+    background: rgb(96,96,101);
+background: linear-gradient(180deg, rgba(96,96,101,1) 0%, rgba(255,255,255,1) 100%);
+    border-radius: 50px;
+    position: relative;
+    left: 10px;
+}
+.outer-circle{
+    width: 120px;
+    height: 120px;
+    background-color: transparent;
+    border-radius: 75px;
+    border: 1px solid white;
+}
+.circle-link{
+    text-decoration: none;
+    color: black;
+    font-size: 0.5rem;
+    position: relative;
+    top: 40px;
+    left: 18px;
+}
+.set-pack{
+    position:absolute;
+    left: 45%;
+    top: 750px;
+}

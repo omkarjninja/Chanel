@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+.copyright-grp{
+    display: flex;
+}
+.copyright-text{
+    font-size: 1rem;
+    line-height: 20px;
+    font-family: 'Gabarito', cursive;
+    font-weight: lighter;
+    opacity: 0.75;
+    color: white;
+}
+.copyright-address{
+   margin-left: 58%;
+}
+.copyright-name{
+    margin-left: 50px;
+}
+.copyright-body{
+    margin-bottom: 50px;
+    background-color: black;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}

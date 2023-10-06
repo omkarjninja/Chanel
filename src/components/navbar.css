@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+.main-nav{
+    display: flex;
+    margin-top: 20px;
+    position: sticky;
+    /* border: 1px solid white; */
+}
+ul li{
+    list-style: none;
+}
+.list{
+    display: flex;
+}
+.gram{
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    left: 650px;
+}
+li a{
+    font-family: 'Gabarito', cursive;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px;
+}
+.contact{
+    background-color: white;
+    color: black;
+    position: relative;
+    left: 10px;
+    top: -10px;
+}
+li img{
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 5px;
+}

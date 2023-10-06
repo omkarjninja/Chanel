@@ -1,0 +1,31 @@
+.btm-main-div{
+    width: 80%;
+    background-color: rgba(96, 96, 101, 0.4);
+    height: 25vh;
+    margin-left: 10%;
+    border-radius: 50px;
+    margin-top: 200px;
+    display: flex;
+}
+.btm-first{
+    width: 45%;
+}
+.btm-second{
+    width: 45%;
+    margin-left: 5%;
+}
+.products{
+    float: left;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.side-text{
+    padding-left: 20px;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Gabarito', cursive;
+}
+.second-pro{
+    margin-left: 90px;
+}

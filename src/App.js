@@ -1,24 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/navbar';
+import Text from './components/text';
+import Para from './components/para';
+import Circle from './components/circle';
+import Bottom from './components/bottom-para';
+import News from './components/new-page';
+import Copyright from './components/copy';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar Classname="navy"></Navbar>
+      <Text></Text>
+      <Para></Para>
+      <Circle></Circle>
+      <Bottom></Bottom>
+      <News></News>
+      <Copyright></Copyright>
     </div>
+    
+    
   );
 }
 

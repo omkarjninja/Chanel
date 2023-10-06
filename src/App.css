@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background-image: url("../src/assets/images/main.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.navy{
+  position: fixed;
+}
